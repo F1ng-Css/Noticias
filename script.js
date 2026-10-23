@@ -4,7 +4,7 @@ const VIDEOS   = ["video1.mp4",
     "video3.mp4",
     "video4.mp4",
     "video5.mp4"];
-const MUSICA   = "Musica/sonido1.mp3";      
+const MUSICA   = "sonido1.mp3";      
 const VOLUMEN  = 0.3;     
 const INTRO_MS = 8000;    
 const OUTRO_MS = 10000;   
