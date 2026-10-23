@@ -1,9 +1,9 @@
 // ====== CONFIGURACIÓN ======
-const VIDEOS   = ["Videos/video1.mp4",
-    "Videos/video2.mp4",
-    "Videos/video3.mp4",
-    "Videos/video4.mp4",
-    "Videos/video5.mp4"];
+const VIDEOS   = ["video1.mp4",
+    "video2.mp4",
+    "video3.mp4",
+    "video4.mp4",
+    "video5.mp4"];
 const MUSICA   = "Musica/sonido1.mp3";      
 const VOLUMEN  = 0.3;     
 const INTRO_MS = 8000;    
