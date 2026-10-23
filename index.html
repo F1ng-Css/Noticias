@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star News Tonight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="stage">
+    <div class="rings"><i></i><i></i><i></i></div>
+
+    <!-- INTRO -->
+    <div class="scene" id="intro">
+      <div class="globe"></div>
+      <div class="livedot">Live</div>
+      <div class="logo"><hr><b>BREAKING NEWS</b><hr></div>
+    </div>
+
+    <!-- REPORTAJES -->
+    <div class="scene" id="main">
+      <video id="bg" muted playsinline></video>
+      <video id="fg" muted playsinline></video>
+      <div id="live">● LIVE</div>
+      <div id="band">BREAKING NEWS</div>
+    </div>
+
+    <!-- CIERRE -->
+    <div class="scene" id="outro">
+      <div class="globe"></div>
+      <div class="livedot">Live</div>
+      <div class="logo"><hr><b>BREAKING NEWS</b><hr></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
